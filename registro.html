@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Registro | Sitio ADSO</title>
+</head>
+<body>
+    <nav>
+        <ul>
+          <li><a href="inicio.html">inicio</a></li>
+          <li><a href="productos.html">productos</a></li>
+          <li><a href="registro.html">registro</a></li>
+          <li><a href="contactenos.html">contactenos</a></li>
+          <li><a href="adso.html">adso</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <section class="section">
+            <h1>Registro</h1>
+            <p>Completa tus datos y nos comunicaremos contigo.</p>
+        </section>
+
+        <section class="section">
+            <form class="form">
+                <div>
+                    <label for="nombre">Nombre completo</label>
+                    <input id="nombre" type="text" placeholder="Ingresa tu nombre" required>
+                </div>
+                <div>
+                    <label for="correo">Correo electrónico</label>
+                    <input id="correo" type="email" placeholder="correo@ejemplo.com" required>
+                </div>
+                <div>
+                    <label for="programa">Programa de interés</label>
+                    <select id="programa" required>
+                        <option value="">Selecciona una opción</option>
+                        <option value="adso">ADSO</option>
+                        <option value="web">Desarrollo Web</option>
+                        <option value="datos">Analítica de Datos</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" rows="4" placeholder="Cuéntanos tus objetivos"></textarea>
+                </div>
+                <button class="btn" type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>24 de febrero de 2026 · Sitio ADSO</p>
+    </footer>
+</body>
+</html>
