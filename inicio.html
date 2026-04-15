@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -9,7 +9,7 @@
 <body>
    <nav>
     <ul>
-      <li><a href="inicio.html">inicio</a></li>
+      <li><a class="active" href="inicio.html">inicio</a></li>
       <li><a href="productos.html">productos</a></li>
       <li><a href="registro.html">registro</a></li>
       <li><a href="contactenos.html">contactenos</a></li>
@@ -19,41 +19,57 @@
 
    <header class="hero">
      <div class="hero-text">
-       <h1>Bienvenido a nuestro sitio web</h1>
-       <p>Este sitio fue realizado para facilitar el conocimiento de los aprendices con contenido claro, práctico y actualizado.</p>
+       <span class="header-badge">Bienvenido</span>
+       <h1>Amplía tus habilidades con contenido práctico</h1>
+       <p>Aprende con ejercicios interactivos, ejemplos sencillos y una ruta clara para progresar en JavaScript.</p>
        <div class="hero-actions">
-         <a class="btn" href="registro.html">Inscríbete</a>
-         <a class="btn btn-outline" href="productos.html">Ver productos</a>
+         <a class="btn" href="ejercicios.html">Ver ejercicios</a>
+         <a class="btn btn-outline" href="registro.html">Inscríbete</a>
        </div>
      </div>
      <div class="hero-media">
-       <img src="auto.jpg" alt="Imagen principal del sitio" width="500" height="300">
+       <img src="auto.jpg" alt="Imagen principal del sitio">
      </div>
    </header>
 
    <main class="container">
      <section class="section">
-       <h2>¿Qué encontrarás aquí?</h2>
+       <h2 class="section-title">¿Qué encontrarás aquí?</h2>
+       <p class="section-description">Material organizado para apoyarte en cada paso: ejercicios, explicaciones y ejemplos prácticos que puedes abrir uno por uno.</p>
        <div class="cards">
          <article class="card">
-           <h3>Contenido guiado</h3>
-           <p>Lecciones cortas para aprender paso a paso, con ejemplos sencillos.</p>
+           <h3>Ejercicios prácticos</h3>
+           <p>Cada ejercicio está diseñado para que puedas probarlo de inmediato y ver el resultado.</p>
          </article>
          <article class="card">
-           <h3>Recursos prácticos</h3>
-           <p>Material descargable y ejercicios para reforzar lo aprendido.</p>
+           <h3>Avance ordenado</h3>
+           <p>Usa las flechas para pasar al siguiente ejercicio o regresar al anterior.</p>
          </article>
          <article class="card">
-           <h3>Acompañamiento</h3>
-           <p>Canales de contacto para resolver dudas y recibir orientación.</p>
+           <h3>Diseño amigable</h3>
+           <p>Interfaz clara con botones visibles, tarjetas y acceso rápido al listado de ejercicios.</p>
          </article>
        </div>
      </section>
 
      <section class="section highlight">
-       <h2>Conoce el programa ADSO</h2>
-       <p>El programa ADSO fortalece tus habilidades en análisis y desarrollo de software.</p>
-       <a class="btn" href="adso.html">Ir a ADSO</a>
+       <div class="highlight-content">
+         <div>
+           <h2>Empieza con la práctica</h2>
+           <p>Accede a los ejercicios desde un solo lugar y realiza cada uno en orden. Hay botones para avanzar o regresar cómodamente.</p>
+           <a class="btn" href="ejercicios.html">Ir a ejercicios</a>
+         </div>
+         <div class="feature-grid">
+           <article class="feature-card">
+             <h3>Rápido y claro</h3>
+             <p>La navegación está pensada para que no te pierdas entre páginas.</p>
+           </article>
+           <article class="feature-card">
+             <h3>Interactividad</h3>
+             <p>Usa botones para ver cambios de forma inmediata y practicar con cada ejercicio.</p>
+           </article>
+         </div>
+       </div>
      </section>
    </main>
 
